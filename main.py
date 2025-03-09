@@ -42,7 +42,7 @@ def calculator(): #for using calculator again and again with new values
             num2 = float(input("What's the next number? :"))
             ans = operation[math](num1, num2)
             print(f"{num1} {math} {num2} = {ans}")
-            run = input(f"Type 'Y' to continue   calculating with {ans},\nor type 'New' to start a new calculation\nor 'Bye' for exit: ").lower()
+            run = input(f"Type 'Y' to continue   calculating with {ans},\nor type 'New' to start a new calculation\nor 'No' for exit: ").lower()
             num1 = ans
 
         if run=="new":
